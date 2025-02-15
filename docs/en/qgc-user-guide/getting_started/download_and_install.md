@@ -47,7 +47,11 @@ QGroundControl continues to not be signed which causes problem on Catalina. To o
 
 - Right-click the QGC app icon, select Open from the menu. You will only be presented with an option to Cancel. Select Cancel.
 - Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
-  :::
+
+On Sequoia and later:
+- After downloading the `dmg` file, open it an copy the QGC executable into you _Application_ folder by dragging the QGC exectuable into you _Application_ folder in _Finder_.
+- In _Finder_, right-click to open the QGC executable from within the _Application_ folder and press "Open" from the popup menu. MacOS will warn you that the executable is not signed and can therefore not be opened. Click "Cancel". Then, open _System Settings_ > _Privacy & Security_ and scroll to the bottom where you find QGC with a button "Open Anyway". Press "Open Anyway". 
+:::
 
 ## Ubuntu Linux {#ubuntu}
 
